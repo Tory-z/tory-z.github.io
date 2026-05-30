@@ -86,6 +86,7 @@ main {
     height: 200px;
     border-radius: 50%;
     object-fit: cover;
+    object-position: 50% 26%;
     margin-bottom: 1rem;
     border: 2px solid #e0e0e0;
 }
@@ -178,15 +179,15 @@ main {
     color: #333;
     margin-bottom: 1.5rem;
     padding-bottom: 0.5rem;
-    border-bottom: 2px solid #3498db;
+    border-bottom: 2px solid #333;
     text-align: left;
 }
 
 .content p {
     font-size: 1rem;
     line-height: 1.8;
-    color: #444;
-    margin-bottom: 1rem;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
 }
 
 .content ul {
@@ -256,12 +257,18 @@ main {
     margin: 0 0 0.5rem 0;
 }
 
-.project-item p,
-.publication-item p {
+.project-item p {
     font-size: 0.95rem;
     color: #555;
     margin: 0;
     line-height: 1.6;
+}
+
+.publication-item p {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
 }
 
 .btn {
@@ -317,18 +324,6 @@ section {
 .project-card p {
     color: #666;
     line-height: 1.7;
-}
-
-footer {
-    background-color: #1a1a1a;
-    color: white;
-    text-align: center;
-    padding: 2.5rem 0;
-    margin-top: 2rem;
-}
-
-footer p {
-    opacity: 0.8;
 }
 
 @media (max-width: 900px) {
